@@ -183,11 +183,11 @@
         <button onclick="showResume('english')" class="btn btn-primary mr-2">English Resume</button>
         <button onclick="showResume('german')" class="btn btn-secondary">German Resume</button>
     </div>
-
-    <!-- Embed viewer for the PDF -->
-    <div id="resume-viewer" class="resume-viewer card mx-auto" style="display: none;">
-      <embed id="resume-pdf" src="./assets/resume_english.pdf" type="application/pdf" width="100%" height="500px">
-      </div>
+  
+    <div id="resume-viewer" class="resume-viewer card mx-auto">
+        <embed id="resume-pdf-english" src="./assets/resume_english.pdf" type="application/pdf" width="100%" height="500px" style="display: block;">
+        <embed id="resume-pdf-german" src="./assets/resume_german.pdf" type="application/pdf" width="100%" height="500px" style="display: none;">
+    </div>
 </section>
 
   <hr>
