@@ -1,12 +1,12 @@
 function showResume(language) {
-  var resumeViewer = document.getElementById("resume-viewer");
-  var resumePdf = document.getElementById("resume-pdf");
-  
-  if (language === "english") {
-      resumePdf.src = "./assets/resume_english.pdf";
-  } else if (language === "german") {
-      resumePdf.src = "./assets/resume_german.pdf";
-  }
+  const englishResume = document.getElementById('resume-pdf-english');
+  const germanResume = document.getElementById('resume-pdf-german');
 
-  resumeViewer.style.display = "block"; // Show resume section
+  if (language === 'english') {
+      englishResume.style.display = 'block';
+      germanResume.style.display = 'none';
+  } else {
+      englishResume.style.display = 'none';
+      germanResume.style.display = 'block';
+  }
 }
