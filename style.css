@@ -187,6 +187,29 @@ p {
   line-height: 1.6;
 }
 
+.language-icons {
+  background-color: #24476a99; 
+  border-radius: 10px; 
+  padding: 40px 20px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.language-icons h2 {
+  color: #333; 
+}
+
+
+.language-item:hover {
+  color: #1f78d1; 
+}
+
+.language-item i {
+  margin-right: 10px; 
+  font-size: 1.5rem; 
+  color: #555; 
+}
+
+
 #projects {
   padding: 80px 0;
 }
@@ -325,3 +348,4 @@ footer {
 footer p {
   text-align: center;
 }
+
